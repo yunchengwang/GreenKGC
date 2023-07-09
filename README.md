@@ -1,6 +1,6 @@
-# GreenKGC: A lightweight knowledge graph completion method
+# GreenKGC: A Lightweight Knowledge Graph Completion Method
 
-GitHub repository for our paper **"GreenKGC: A lightweight knowledge graph completion method."** to appear in ACL 2023. 
+GitHub repository for our GreenKGC to appear in ACL 2023. 
 
 **Requirements**
 
@@ -8,7 +8,7 @@ GitHub repository for our paper **"GreenKGC: A lightweight knowledge graph compl
 
 **Module 1: Pre-trained Representations**
 
-High-dimensional representations are stores in [features](features).
+High-dimensional representations are stored in [features](features).
 
 **Module 2 & 3: Run GreenKGC**
 
