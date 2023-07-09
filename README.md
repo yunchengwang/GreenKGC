@@ -1,5 +1,31 @@
 # GreenKGC: A lightweight knowledge graph completion method
 
-Official GitHub repository for our paper **Wang, Yun-Cheng, et al. "GreenKGC: A lightweight knowledge graph completion method."** to appear in ACL 2023. 
+GitHub repository for our paper **"GreenKGC: A lightweight knowledge graph completion method."** to appear in ACL 2023. 
 
-Codes will be released soon.
+**Requirements**
+
+     pip install -r requirements.txt
+
+**Module 1: Pre-trained Representations**
+
+High-dimensional representations are stores in [features](features).
+
+**Module 2 & 3: Run GreenKGC**
+
+Run the script to obtain pruned low-dimensional features and predict the missing links.
+
+     source best_config.sh
+
+
+**Citation**
+
+If you find the source codes useful, please consider citing our [paper](https://arxiv.org/abs/2208.09137):
+
+```
+@article{wang2022greenkgc,
+  title={Greenkgc: A lightweight knowledge graph completion method},
+  author={Wang, Yun-Cheng and Ge, Xiou and Wang, Bin and Kuo, C-C Jay},
+  journal={arXiv preprint arXiv:2208.09137},
+  year={2022}
+}
+```
